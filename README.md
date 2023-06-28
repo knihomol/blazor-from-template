@@ -63,3 +63,4 @@ namespace BlazorApp1
 - Class [WebApplication](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.builder.webapplication?view=aspnetcore-7.0) - a web application used to configure the HTTP pipeline and routes
     - [WebApplication.cs](https://github.com/dotnet/aspnetcore/blob/main/src/DefaultBuilder/src/WebApplication.cs)
 - Method [AddRazorPages](https://learn.microsoft.com/en-us/dotnet/api/microsoft.extensions.dependencyinjection.mvcservicecollectionextensions.addrazorpages?view=aspnetcore-7.0) - adds services for pages to the specified IServiceCollection. This method configures the MVC services for the commonly used features for pages. This combines the effects of AddMvcCore(IServiceCollection), AddAuthorization(IMvcCoreBuilder), AddDataAnnotations(IMvcCoreBuilder), AddCacheTagHelper(IMvcCoreBuilder), and AddRazorPages(IMvcCoreBuilder).
+- https://learn.microsoft.com/en-us/dotnet/architecture/blazor-for-web-forms-developers/project-structure
